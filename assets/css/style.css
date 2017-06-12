@@ -2,10 +2,13 @@ body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	line-height: 200%;
 	color: #777777;
-	background-image: url("../assets/images/background.png");
+	background-image: url("../images/background.png");
 	background-repeat: repeat;
+	height: 100%;
+}
 
-
+#content {
+	width: 960px;
 }
 
 h1, h2 {
@@ -14,9 +17,8 @@ h1, h2 {
 }
 
 .grayline {
-	height: 2px;
+	border-top: 2px solid #dddddd;
 	width: 100%;
-	background-color: #dddddd;
 	margin-bottom: 25px;
 }
 
@@ -27,22 +29,17 @@ header {
 	border-bottom: 2px solid #cccccc;
 }
 
-#content {
-	width: 960px;
-	background-image: url("../assets/images/background.png");
-}
-
-#name {
-	margin-left: 50px;
+#myname {
 	position: absolute;
 	background-color: #4aaaa5;
 	width: 275px;
 	text-align: center;
 	padding: 5px 0px;
+	margin-left: 50px;
 }
 
-#jose {
-	color: #fff;
+#namecolor {
+	color: #ffffff;
 }
 
 nav {
@@ -95,10 +92,15 @@ footer {
 	border-top: 6px solid #4aaaa5;
 	font-size: 10px;
 	bottom: 0;
-	height: 100px;
 	width: 100%;
-	position: absolute;
+	position: fixed;
 	background: #666666;
 	text-align: center;
 	color: #999999;
+}
+
+#copyright {
+	padding-top: 25px;
+	padding-bottom: 25px;
+
 }
