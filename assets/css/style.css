@@ -78,10 +78,11 @@ main {
 aside {
 	margin: 25px 0px 0px 0px;
 	padding: 0px 25px 25px 25px;
-	right: 50px;
+	left: 800px;
+	top: 25px;
 	height: auto;
 	width: 270px;
-	position: absolute;
+	position: relative;
 	background-color: #fff;
 	color: #4aaaa5;
 	text-align: center;
@@ -103,4 +104,8 @@ footer {
 	padding-top: 25px;
 	padding-bottom: 25px;
 
+}
+
+#message {
+	color: #red;
 }
