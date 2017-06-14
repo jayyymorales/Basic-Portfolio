@@ -1,63 +1,54 @@
 <!DOCTYPE html>
-<html lang="US-en">
-<html>
+<html lang="en">
+
 <head>
-	<title>Jose Morales</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Jose Morales</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-
-	<header>
-		<div id="myname"><h1 id="namecolor">Jose Morales</h1></div>
-		<nav>
-			<a href="portfolio.html">About</a>
-    		<a href="index.html" id="smalllinks">Portfolio</a>
-   			<a href="contact.html">Contact</a>
-		</nav>
-	</header>
-
-<div id="content">
-
-	<main>
-		<h1>Contact</h1>
-
-		<div class="grayline"></div>
-		
-		<form action="action_page">
-  		Name
-  		<p><input type="text" name="name" value="John Smith"></p>
-  		<p>Email</p>
-  		<input type="text" name="email" value="example@gmail.com">
-  		<br>
-  		Message<br>
-  		<input id="message" name="message"rows="10" cols="30">
-  		<br><br>
-  		<input type="submit" value="Submit">
-		</form> 
-
-		<div>
-  		</div>
-
-	</main>
-
-	<aside>
-		<h2>Connect with Me</h2>
-
-		<div class="grayline"></div>
-
-		<img src="https://cdn0.iconfinder.com/data/icons/social-network-7/50/29-128.png" width="64" height="64" align="center" style="margin:0px 5px 0px 0px">
-		<img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-128.png" width="64" height="64" align="center" style="margin:0px 5px 0px 0px">
-		<img src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/overflow-128.png" width="64" height="64" align="center" style="margin:0px 5px 0px 0px">
-	</aside>
-</div>
-
-<!--https://css-tricks.com/couple-takes-sticky-footer/ -->
-
-	<footer>
-	<div id="copyright">© Copyright 2017 Jose Morales</div
-	</footer>
+    <header>
+        <div id="myname">
+            <h1 id="namecolor">Jose Morales</h1></div>
+        <nav>
+            <a href="portfolio.html">About</a>
+            <a href="index.html" id="smalllinks">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <div id="content">
+        <main>
+            <h1>Contact</h1>
+            <div class="grayline"></div>
+            <form action="mailto:moralej90@gmail.com" method="post" enctype="text/plain">
+                Name
+                <br>
+                <input type="text" name="name" placeholder="John Smith">
+                <br> E-mail
+                <br>
+                <input type="text" name="mail" placeholder="example@gmail.com">
+                <br> Message
+                <br>
+                <textarea id="subject" name="subject" style="height:200px"></textarea>
+                <br>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+            <div>
+            </div>
+            <div class="push"></div>
+        </main>
+        <aside>
+            <h2>Connect with Me</h2>
+            <div class="grayline2">
+                <a href="https://github.com/jayyymorales"><img src="assets/images/git.png"></a>
+                <a href="https://www.linkedin.com/"><img class="connectimage" src="assets/images/linkedin.png"></a>
+                <a href="https://stackoverflow.com/"><img src="assets/images/overflow.png"></a>
+            </div>
+        </aside>
+    </div>
+    <footer>&copy; Copyright 2017 Jose Morales</footer>
 </body>
 
 </html>
